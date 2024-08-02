@@ -1,0 +1,82 @@
+<!DOCTYPE html class="light">
+<!-- definindo um html 5-->
+<html lang="pt-br">
+<!-- html é o elemento raiz que tem a propiedade lang que é alinguagem -->
+<head>
+    <!--é a tag responsavel por ajustar a configuração do nosso documento que não são visiveis -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <!--definindo os tipos de caracteres-->
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <!--fazer a compatubilidade com navegadores mais antigos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--configura em relação aos tipos de telas, pc ou mobile-->
+    <title>RuyCred</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!--Aqui é onde colocamos nosso link que referencia onde esta o nosso arquivi css-->
+</head>
+<body>
+    <!--corpo do projeto-->
+    <div id="container">
+    <!--Aqui eu coloquei um id para fazer a caixa do conteiner-->
+    <div id="profile">
+        <!--Aqui eu coloquei um id para colocar a foto do avatar-->
+        <img src="./assets/ruy.jpg" alt="Logo marca da empresa RuyCred" />
+        <p>@ruycred</p>
+        <!--onde contemm o user do insta-->
+    </div>
+    <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span> </span>
+    </div>
+    <ul>
+        <!--ul é para criar uma lista-->
+        <li>
+        <!--li para criar itens dessa lista-->
+        <a href="#" target="_blank">Sobre nós</a>
+        <!--aqui vai conter link para determinado lugar-->
+        </li>
+
+        <li>
+        <a
+            href="https://wa.me/5575999940572"
+            target="_blank"
+            >Contato</a
+        >
+        </li>
+    </ul>
+    <div id="social-links">
+        <a href="https://www.instagram.com/ruycred/" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+    </div>
+    <footer>
+        Feito com ♥️ por
+        <a
+        href="https://www.instagram.com/_kaicecilia?igsh=dGh1eThraDk5eWhi&utm_source=qr"
+        target="_blank"
+        >Kailany Sampaio</a
+        >
+    </footer>
+    </div>
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
